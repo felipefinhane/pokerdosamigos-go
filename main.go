@@ -22,7 +22,7 @@ func main() {
 	})
 
 	// Crie um novo bot com o token de acesso fornecido pelo BotFather
-	bot, err := tgbotapi.NewBotAPI("SEU_TOKEN_DE_ACESSO_AQUI")
+	bot, err := tgbotapi.NewBotAPI("6284838752:AAHl1EynXMoF2cPSzkh298anShH7I6bd2JQ")
 	if err != nil {
 		log.Panic(err)
 	}
